@@ -1,0 +1,426 @@
+/*
+Theme Name: Zob
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+
+*/
+/* ==========GERAL========= */
+
+body,html{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+:root{
+    --color-purple:#6d0ad7
+}
+li,a{
+  list-style: none;
+  text-decoration: none;
+}
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.items-between{
+  justify-content: space-between;
+}
+.flex-col{
+  flex-direction: column;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.w-full{
+  width: 100%;
+}
+.space{
+  height: 20px;
+  width: 100%;
+}
+.font-700{
+  font-weight: 700;
+}
+.font-400{
+  font-weight: 400;
+}
+section{
+    margin-bottom: 40px !important;
+}
+.titles-desk{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+/* ==========FONTES========= */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* ==========Header========= */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+header{
+    /* background-color: var(--color-purple); */
+    height: 150px;
+    padding: 20px 0;
+    position: relative;
+}
+#logo {
+    width: 74px;
+    height: 122px;
+    background-size: cover;
+}
+/* ==========CABEÇALHO========= */
+header .container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 200px;
+}
+/* ==========FAIXA DE AVISO========= */
+
+#warning_banner{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    display: f;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+.swiper-slide.services {
+  width: 100% !important;
+  display: flex;
+}
+.shelf-services{
+width: 100%;
+}
+#banner-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#warning_banner i{
+   color: white;
+   font-size: 40px;
+}
+.banner_card {
+    display: flex !important;
+    align-items: center;
+    gap: 30px;
+}
+.banner_card p {
+  width: 200px;
+}
+/* ==========BANNER & PRODUTOS========= */
+
+#section-products-banner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    position: relative;
+}
+
+/* ==========SWIPPER========= */
+.shelf .swiper-wrapper,
+.shelf .swiper{
+    position: unset;
+}
+.shelf .swiper-pagination {
+    bottom: -160px !important;
+}
+
+.shelf .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shelf .banner_products {
+    position: relative;
+    height: 300px;
+}
+
+.shelf .banner_products {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.shelf .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.shelf .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shelf .swiper-slide span{
+    width: 70%;
+}
+.shelf .swiper-slide img {
+    display: block;
+    width: 75%;
+    object-fit: cover;
+}
+
+/* ==========SHELF OCULOS DE SOL========= */
+#section-products-sunglasses{
+  margin-bottom: 200px !important;
+}
+
+.shelf-sunglasses .swiper-button-prev {
+    left: -45px;
+    color: #707070;
+    top: 230px;
+  border: none;
+}
+
+.shelf-sunglasses .swiper-button-next {
+  right: -45px;
+  top: 230px;
+  color: #707070;
+  border: none;
+} 
+
+.card_product{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.card_product span{
+  max-width: 220px;
+}
+
+/* ==========RODAPÉ========= */
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+/* ==========MENU========= */
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin: 0;
+}
+.menu-item a{
+  color: #707070;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* ==========CATEGORIA========= */
+.card_product img {
+  width: 203px;
+}
+.card_product {
+ color: #000;
+}
+.product   {
+  gap: 50px;
+}
+.product:hover{
+  box-shadow: 0 3px 20px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.cards_produts{
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  gap: 51px;
+}
+
+#categoories-products{
+  padding: 40px 0px;  
+  gap: 40px;
+
+}
+
+.shelf-services .swiper-button-next,
+.shelf-services .swiper-button-prev{
+  display: none !important;
+}
+
+/* ==========PAGINA DO PRODUTO========= */
+#pdp-header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.pdp .swiper-pagination-bullet {
+  border-radius: 0 !important;
+  width: 100px !important;
+  height: 75px !important;
+  background-size: cover !important;
+  border: solid .5px;
+}
+.product-title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #404C58;
+}
+
+#pdp-header .side-right{
+  padding: 0 10px;
+  gap: 20px;
+}
+#pdp-header .side-right img{
+  width: 100px;
+}
+.product-description h2{
+  padding-bottom: 10px;
+  border-bottom: solid .5px #ccc;
+}
+.product-info span{
+  display: flex;
+  gap: 10px;
+}
+
+
+
+#menu-mobile{
+  display: none;
+}
+.menu{
+  transition: all .5s ease;
+}
