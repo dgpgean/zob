@@ -14,7 +14,7 @@
 
 
     <?php wp_head(); ?>
-    <title>Document</title>
+    <title>Zob Store</title>
 </head>
 
 <header>
