@@ -20,7 +20,7 @@ $terms = get_terms(array(
             <?php foreach ($terms as $term): ?>
                 <a href="/produto/categoria/<?php echo $term->slug ?>" class="swiper-slide">
                     <?php $imageUrl =  get_field('image', $term) ?>
-                    <img src="<?php echo $imageUrl ?>" width="200" class="imgs_categories">
+                    <img src="<?php echo $imageUrl ?>" width="400" class="imgs_categories">
                 </a>
             <?php endforeach; ?>
         </div>
@@ -55,7 +55,7 @@ $terms = get_terms(array(
                 spaceBetween: 1,
             },
             1024: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 50,
             },
         },
