@@ -18,10 +18,10 @@ $terms = get_terms(array(
     <div class="swiper mySwiper shelf-categories">
         <div class="swiper-wrapper">
             <?php foreach ($terms as $term): ?>
-                <div class="swiper-slide">
+                <a href="/produto/categoria/<?php echo $term->slug ?>" class="swiper-slide">
                     <?php $imageUrl =  get_field('image', $term) ?>
-                    <img src="<?php echo $imageUrl ?>" class="imgs_categories">
-                </div>
+                    <img src="<?php echo $imageUrl ?>" width="200" class="imgs_categories">
+                </a>
             <?php endforeach; ?>
         </div>
 
@@ -51,11 +51,11 @@ $terms = get_terms(array(
                 spaceBetween: 20,
             },
             768: {
-                slidesPerView: 1,
+                slidesPerView: 4,
                 spaceBetween: 1,
             },
             1024: {
-                slidesPerView: 1,
+                slidesPerView: 4,
                 spaceBetween: 50,
             },
         },

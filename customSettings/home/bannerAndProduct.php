@@ -97,3 +97,4 @@ function show_banner1_content()
     </div>
 <?php
 }
+?>

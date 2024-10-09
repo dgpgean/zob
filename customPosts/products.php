@@ -49,7 +49,7 @@ function controlador_de_leitura($query)
 {
 	if (!is_admin()) {
 		if ($query->is_tax('categoria_do_produto') && $query->is_main_query()) {
-			$query->set('showposts', '5');
+			$query->set('showposts', '8');
 		}
 	}
 }

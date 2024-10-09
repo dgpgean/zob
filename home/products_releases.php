@@ -38,7 +38,7 @@ $query = new WP_Query([
                     <?php endwhile; ?>
                 <?php endif; ?>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination releases"></div>
         </div>
 
     </div>
@@ -67,6 +67,7 @@ $query = new WP_Query([
                 spaceBetween: 20,
             },
             768: {
+
                 slidesPerView: 2,
                 spaceBetween: 40,
             },

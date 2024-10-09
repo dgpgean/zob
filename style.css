@@ -246,8 +246,11 @@ width: 100%;
 .shelf .swiper{
     position: unset;
 }
-.shelf .swiper-pagination {
+.shelf .swiper-pagination.releases {
     bottom: -160px !important;
+}
+.shelf .swiper-pagination.sunglasses {
+  bottom: -93px !important;
 }
 
 .shelf .swiper-slide{

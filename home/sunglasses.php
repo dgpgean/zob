@@ -28,7 +28,7 @@
 
             <div class="swiper-button-next shelf-sunglasses"></div>
             <div class="swiper-button-prev shelf-sunglasses"></div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination sunglasses"></div>
         </div>
 
     </div>
