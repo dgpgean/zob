@@ -235,6 +235,21 @@ width: 100%;
 }
 /* ==========BANNER & PRODUTOS========= */
 
+.shelf-services.swiper-button-prev {
+  left: -45px;
+  color: #707070;
+  top: 230px;
+  border: none;
+}
+
+.shelf-services.swiper-button-next {
+right: -45px;
+top: 230px;
+color: #707070;
+border: none;
+} 
+
+
 #section-products-banner{
     display: grid;
     grid-template-columns: 40% 60%;
@@ -264,6 +279,7 @@ width: 100%;
     position: relative;
     height: 300px;
 }
+
 
 .shelf .banner_products {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;

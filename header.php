@@ -19,7 +19,7 @@
 
 <header>
     <div class="container">
-        <div style="background-image: url('<?php echo get_template_directory_uri() . '/images/logo.png' ?>');" id="logo"></div>
+        <a href="/" style="background-image: url('<?php echo get_template_directory_uri() . '/images/logo.png' ?>');" id="logo"></a>
         <div id="menu-mobile">
             <i class="fa-solid fa-bars"></i>
         </div>
