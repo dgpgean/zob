@@ -38,8 +38,7 @@ $query = new WP_Query([
                     <?php endwhile; ?>
                 <?php endif; ?>
             </div>
-            <div class="swiper-button-next shelf-services"></div>
-            <div class="swiper-button-prev shelf-services"></div>
+
             <div class="swiper-pagination releases"></div>
         </div>
 
@@ -55,10 +54,7 @@ $query = new WP_Query([
     var swiper = new Swiper(".products_releases", {
         slidesPerView: 1,
         spaceBetween: 10,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+
 
         pagination: {
             el: ".swiper-pagination",
